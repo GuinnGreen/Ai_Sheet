@@ -87,7 +87,7 @@ GitHub Actions Workflow
     ↓ (npm run build → static assets)
 GitHub Pages (gh-pages branch)
     ↓
-公開 URL：https://<user>.github.io/essay-grader/
+公開 URL：https://guinngreen.github.io/Ai_Sheet/（目標 repo: GuinnGreen/Ai_Sheet）
     ↓
 每位老師的瀏覽器（資料隔離）
     ├─ IndexedDB：班級、學生、批次、作文、圖片、評分、API key
@@ -459,7 +459,7 @@ Prompt 結構（版本 v1.0.0）：
 ### 9.1 目錄結構
 
 ```
-essay-grader/
+Ai_Sheet/                             # GitHub repo: GuinnGreen/Ai_Sheet
 ├── .github/workflows/deploy.yml     # GitHub Actions: push to main → deploy to gh-pages
 ├── src/
 │   ├── main.tsx / App.tsx
@@ -470,7 +470,7 @@ essay-grader/
 │   └── hooks/
 ├── public/
 ├── index.html
-├── vite.config.ts                   # base: '/essay-grader/'
+├── vite.config.ts                   # base: '/Ai_Sheet/'（對應 GitHub repo 名稱）
 ├── tailwind.config.ts
 ├── tsconfig.json
 ├── package.json
